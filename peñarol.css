@@ -1,0 +1,60 @@
+body {
+    margin: auto;
+    width: 500px; 
+    padding: 50px;
+    font-family: 'Arial', sans-serif; 
+    background-color: yellow;
+  }
+  
+h1, p {
+   text-align: center;
+}
+
+img {
+    text-align: center;
+}
+header {
+  color: yellow;
+  height: 80px;
+}
+.Peñarolmejor{
+  color: blueviolet;
+}
+div {
+  background-color: aquamarine;
+  box-sizing: border-box;
+  width: 50%;
+  display: inline-block;
+  height: 200px;
+  margin: 8%;
+  border: 15px solid ; 
+  padding: 20px;
+  margin-top: 50px;
+}
+div:hover {
+  color: aliceblue;
+  background-color: blue;
+  border-radius: 50%;
+}
+nav {
+  width: 80%;
+  background-color: yellow;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around; 
+  list-style: none; 
+  padding: 0; 
+  justify-content: center;
+  background-color: yellow;
+}
+nav ul li {
+  margin-right: 20px;
+  background-color: yellow;
+
+}
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  background-color: yellow;
+}

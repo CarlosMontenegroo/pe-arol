@@ -1,0 +1,29 @@
+body {
+    margin: auto;
+    width: 500px; 
+    padding: 50px;
+    font-family: 'Arial', sans-serif; 
+    background-color: yellow;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-around; 
+    list-style: none; 
+    padding: 0; 
+    justify-content: center;
+    background-color: yellow;
+  }
+  nav ul li {
+    margin-right: 20px;
+    background-color: yellow;
+  
+  }
+  nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    background-color: yellow;
+  }
+  img {
+    width: 200px;
+  }
