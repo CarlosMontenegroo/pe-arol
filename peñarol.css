@@ -1,60 +1,62 @@
 body {
-    margin: auto;
-    width: 500px; 
-    padding: 50px;
-    font-family: 'Arial', sans-serif; 
-    background-color: yellow;
-  }
-  
-h1, p {
-   text-align: center;
+  font-family: 'Arial', sans-serif; 
+  background-color: #ffff00;
+  margin-right: 16px; /* Añadida la unidad px */
+  font-size: smaller;
+}
+
+header {
+  color: black; /* Cambiado a negro para contraste */
+  height: 80px;
+  text-align: center; /* Centrar el texto dentro del header */
+  background-color: #ffff00; /* Asegurarse de que el fondo también sea amarillo */
+  line-height: 80px; /* Centrar verticalmente el texto */
 }
 
 img {
-    text-align: center;
+  width: 30%; /* Redimensionar imágenes para que ocupen un 30% del contenedor */
+  padding: 10px; /* Reducir padding a 10px para un mejor diseño */
+  background-color: brown;
+  margin: 10px; /* Añadido margen para separación */
 }
-header {
-  color: yellow;
-  height: 80px;
-}
-.Peñarolmejor{
-  color: blueviolet;
-}
-div {
-  background-color: aquamarine;
-  box-sizing: border-box;
-  width: 50%;
-  display: inline-block;
-  height: 200px;
-  margin: 8%;
-  border: 15px solid ; 
-  padding: 20px;
-  margin-top: 50px;
-}
-div:hover {
-  color: aliceblue;
-  background-color: blue;
-  border-radius: 50%;
-}
+
 nav {
-  width: 80%;
-  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #ffff00; /* Fondo amarillo para nav */
+  padding: 10px 0; /* Espaciado vertical para nav */
 }
+
 nav ul {
   display: flex;
   justify-content: space-around; 
   list-style: none; 
   padding: 0; 
-  justify-content: center;
-  background-color: yellow;
+  width: 100%; /* Asegurar que el ul ocupe el 100% del nav */
+  margin: 0; /* Eliminar el margen por defecto */
 }
+
 nav ul li {
   margin-right: 20px;
   background-color: yellow;
-
+  padding: 10px; /* Añadir padding para mejor interactividad */
 }
+
 nav ul li a {
   text-decoration: none;
   font-weight: bold;
-  background-color: yellow;
+  color: black; /* Color negro para el texto para mejor contraste */
+  padding: 5px 10px; /* Padding adicional para enlaces */
+  border-radius: 5px; /* Bordes redondeados para enlaces */
+  transition: background-color 0.3s ease; /* Transición suave para hover */
+}
+
+nav ul li a:hover {
+  background-color: brown; /* Cambio de color en hover para interactividad */
+  color: #ffff00; /* Color de texto amarillo en hover */
+}
+#header_img {
+  height: 200px;
+  width: 200px;
 }
